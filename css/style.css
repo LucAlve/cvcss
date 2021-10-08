@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #d8f3dc;
+  color: #081c15;
+}
+
+h1 {
+  margin: 10px;
+  font-family: 'Amatic SC', cursive;
+  /* for font size you can use 16px = 100% = 1em (rem when you dont want change to receive values from outside) */
+  font-size: 3.5rem;
+}
+
+h2 {
+  margin: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h4 {
+  margin: 0;
+}
+
+h6 {
+  position: relative;
+  top: 40px;
+  left: 52px;
+  margin-top: 0;
+}
+
+p {
+  margin: 5;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+hr {
+  border-top: dotted  #b7e4c7 10px;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto 50px auto;
+}
+
+ul {
+  text-align: left;
+}
+
+ol {
+  text-align: left;
+  margin-left: 30px;
+}
+
+#civil{
+  font-size: 1.40rem;
+  margin: 0;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.my-picture {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin: 25px 20px 0 0;
+}
+
+.intro {
+  margin-top: 50px;
+  visibility: hidden;
+  transition: opacity 5s, visibility 5s;
+}
+
+.intro-text {
+  margin: 0;
+}
+
+.my-picture:hover + .intro{
+  visibility: visible;
+}
+
+.skill {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.skill-row {
+  padding-top: 8px;
+}
+
+.p-img{
+  height: 20px;
+  width: 20px;
+  padding-right: 5px;
+}
+
+.skill-text {
+  font-size: 20px;
+  color: #40916c;
+  padding-right: 30px;
+}
+
+.icon {
+  font-size: 10px;
+}
+
+.top-container {
+  background-color: #b7e4c7;
+  padding: 10px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 20px 0 20px;
+}
+
+.bottom-container {
+  background-color: #40916c;
+  padding: 30px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+
+.footer-link {
+  color: #081c15;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #d8f3dc;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 0 auto 50px auto;
+}
+
+#bottom {
+  color: #d8f3dc;
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+
+
+.work-experience {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid #2d6a4f;
+  border-right: 1px solid #2d6a4f;
+  width: 30%;
+  margin: auto;
+}
+
+.work-experience > .dates {
+  padding: 8px 4px;
+  border-left: 1px solid #2d6a4f;
+  border-bottom: 1px solid #2d6a4f;
+}
+
+.work-experience > .work {
+  padding: 8px 4px;
+  border-left: 1px solid #2d6a4f;
+  border-bottom: 1px solid #2d6a4f;
+}
+
+.mechanics {
+  text-align: left;
+  line-height: 1.5rem;
+  margin-left: 50px;
+}
+.books {
+  line-height: 1.5rem;
+}
+
+.teaching-link {
+  color: #081c15;
+  text-decoration: none;
+}
+
+.teaching-link:hover {
+  color: #52b788;
+}
+
+.teach {
+  text-align: left;
+  padding: 70px 0 70px 50px;
+  background-color: #b7e4c7;
+}
+
+.teaching-introduction {
+  width: 50%;
+}
+
+.line{
+  border-top: solid;
+  border-bottom: none;
+  width: 50%;
+}
+
+.button {
+   background: #74C69D;
+   background-image: -webkit-linear-gradient(top, #74C69D, #95D5B2);
+   background-image: -moz-linear-gradient(top, #74C69D, #95D5B2);
+   background-image: -ms-linear-gradient(top, #74C69D, #95D5B2);
+   background-image: -o-linear-gradient(top, #74C69D, #95D5B2);
+   background-image: -webkit-gradient(to bottom, #74C69D, #95D5B2);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-size: 1.3rem;
+   font-weight: 100;
+   padding: 16px;
+   -webkit-box-shadow: 1px 0 10px 0 #747474;
+   -moz-box-shadow: 1px 0 10px 0 #747474;
+   box-shadow: 1px 0 10px 0 #747474;
+   text-shadow: 0 1px 14px #000000;
+   border: solid #95D5B2 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.button:hover {
+   border: solid #95D5B2 1px;
+   background: #52B788;
+   background-image: -webkit-linear-gradient(top, #52B788, #74C69D);
+   background-image: -moz-linear-gradient(top, #52B788, #74C69D);
+   background-image: -ms-linear-gradient(top, #52B788, #74C69D);
+   background-image: -o-linear-gradient(top, #52B788, #74C69D);
+   background-image: -webkit-gradient(to bottom, #52B788, #74C69D);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
